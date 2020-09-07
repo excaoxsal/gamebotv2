@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ambassador Documentation</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+<div class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="site-sidebar">
+        <a href="fourtyfive.co" class="h4 logo">
+          <img src="assets/images/logo.svg" alt="">
+        </a>
+
+        <nav class="nav flex-column">
+          <a class="nav-link active" href="#">Getting Started</a>
+          <a href="#sliders" class="nav-link" >Sliders</a>
+          <a href="#video" class="nav-link" >Video Popups</a>
+          <a href="#helpers" class="nav-link" >Utilities</a>
+          <a class="nav-link" href="#credits">Credits</a>
+        </nav>
+        <div class="mt-2 align-content-end">
+          <p class="">&copy; 2018, Fourty Five Co.
+            <a href="malto:byalexlynpi@gmail.com">byalexlynpi@gmail.com</a>
+          </p>
+        </div>
+
+      </div>
+
+      <div class="col-md-10 ml-auto">
+        <main class="content">
+          <section id="getting-started">
+            <h2>Getting Started</h2>
+            <p class="lead">Thank you for buying this template. This documentation is to guide you through
+              basic structure of the template. If you have any further questions, feel free to reach us at
+              <a href="malto:byalexlynpi@gmail.com">byalexlynpi@gmail.com</a></p>
+            <p><strong>Created on: 0/0/2018 <br>Version: 1.0.0</strong>
+            </p>
+            <p></p>
+
+            <div class="mt-5">
+              <h5>Files &amp; Folder structure</h5>
+              <pre><code>
+├── Documentation
+│   ├── index.html
+
+├── HTML
+  │   ├── css
+  │   ├── fonts
+  │   ├── images
+  │   ├── js
+  │   ├── index.html
+  │   ├── login.html
+  │   ├── login-split-view.html
+  │   ├── create-account.html
+  │   ├── 404.html
+  │   ├── favicon.png
+                      </code></pre>
+            </div>
+
+            <div class="mt-5">
+              <h5>CSS, Fonts and Javascripts files</h5>
+              <p class="lead">Third party JavaScripts plugins can be found under the <span
+                class="badge badge-warning">vendors</span> sub-folder in <span
+                class="badge badge-warning">js</span> folder.</p>
+              <pre>
+                    <code class="language-javascript">
+&lt;!-- JS Global Compulsory --&gt;
+&lt;script src="js/vendors/jquery.js"&gt;&lt;/script&gt;
+&lt;script src="js/vendors/bootstrap.bundle.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/vendors/jquery.magnific-popup.min.js"&gt;&lt;/script&gt;
+&lt;!-- owl carousel --&gt;
+&lt;script src="js/vendors/owl.carousel.min.js"&gt;&lt;/script&gt;
+
+&lt;script src="js/vendors/swiper.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/vendors/holder.js.min.js"&gt;&lt;/script&gt;
+
+&lt;!-- JS Ambassador --&gt;
+&lt;script src="js/ambassador.js"&gt;&lt;/script&gt;
+</code>
+
+                  </pre>
+            </div>
+          </section>
+          <section id="sliders">
+            <h2>Sliders</h2>
+            <p class="lead">We use <a href="http://owlcarousel2.github.io/OwlCarousel2/" target="_blank">Owl
+              Carousel 2</a> and <a href="http://idangero.us/swiper/" target="_blank">Swiper Sliders </a>
+            </p>
+
+            <div class="mb-5">
+              <h5>Setting Owl Carousel</h5>
+
+              <strong class="mb-2 d-block">Deault Setup</strong>
+              <pre>
+&lt;div class="owl-carousel"&gt;
+  /* Add your contents */
+&lt;/div&gt;
+                </pre>
+            </div>
+          </section>
+
+
+          <section id="video">
+            <h2>Video Popups</h2>
+            <P class="lead">We use Magnific Popup for video popups, all you have to do is to add your video url and a class</P>
+            Example:
+            <pre>
+&lt;a href="your-video-url" class="btn btn-link js-video-modal-trigger"&gt;
+  watch the video
+&lt;/a&gt;
+                    </pre>
+            <p class="text-danger"><span class="badge badge-warning">js-video-modal-trigger</span> is the JavaScript hook for video modals</p>
+          </section>
+
+          <section id="helpers">
+            <h2>Utilities</h2>
+            <p class="lead">This template uses most of the bootstrap the bootstrap's components and Utilities classes.<a
+              href="http://getbootstrap.com">getbootstrap.com</a></p>
+            <h4 class="mt-4"> Custom Utilities classes</h4>
+            <strong class="d-block">Spacings</strong>
+            <ul>
+              <li>m-t = margin-top</li>
+              <li>m-t = margin-left</li>
+              <li>p-t = padding-top</li>
+              <li>p-b = padding-bottom</li>
+            </ul>
+            <p><strong>Spacing classes name comes with the space values like mt-0 for margin top at zero and mt-10 for margin-top at 10px</strong></p>
+            <h5 class="d-block">Heights</h5>
+            <p>All height Utilities are relative to the viewport height like height-20, which has 20% of the viewport height.</p>
+            <p class="font-weight-bold">It has 10,20,30,40,50,60,70,80,90,10</p>
+
+
+            
+
+
+          </section>
+          <hr>
+          <section id="credits">
+            <li>Bootstra 4 — <a href="http://getbootstrap.com">http://getbootstrap.com</a></li>
+            <li>Magnific Popup — <a href="http://dimsemenov.com/plugins/magnific-popup/">http://dimsemenov.com/plugins/magnific-popup/</a>
+            </li>
+            <li>Swiper Slider — <a href="http://idangero.us/swiper/">http://idangero.us/swiper/</a></li>
+            <li>Owl Carousel 2 — <a href="http://owlcarousel2.github.io/OwlCarousel2/">http://owlcarousel2.github.io/OwlCarousel2/</a>
+            </li>
+            <li>Font Awesome — <a href="http://fontawesome.io">http://fontawesome.io</a></li>
+            <li>Ionicons — <a href="https://ionicons.com/">https://ionicons.com/</a></li>
+            <li>HolderJS — <a href="http://holderjs.com/">HolderJS</a></li>
+          </section>
+
+        </main>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

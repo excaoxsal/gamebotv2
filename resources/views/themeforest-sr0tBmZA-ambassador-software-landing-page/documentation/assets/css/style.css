@@ -1,0 +1,79 @@
+body {
+  background: #F4F6F8;
+  color: #637282;
+}
+
+h1, h2, h3 ,h4 ,h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #1B2733;
+}
+
+.site-header .row{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.wrapper {
+  position: relative;
+  margin-top: 10px;
+}
+.site-sidebar {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-sidebar .nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.site-sidebar .nav-link {
+  /* margin: 10px 0; */
+  display: inline-block;
+  color: #637282;
+  padding-left: 0;
+  padding-right: 0;
+}
+.site-sidebar .logo {
+  display: inline-block;
+}
+
+.content {
+  background: #fff;
+  min-height: 100vh;
+  border-radius: 3px;
+  box-shadow: 0 0 30px rgba(0,0,0,.1);
+}
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+pre {
+  background: #f1f1f8;
+  color: #1B2733;
+  padding: 20px 15px;
+}
+@media (min-width: 800px) {
+  .container {
+    max-width: 95%;
+  }
+  .content {
+    padding: 10px 50px;
+    margin-left: 40px;
+  }
+  .site-sidebar {
+    max-width: 200px;
+    position: fixed;
+    left: auto;
+    /* left: calc(100% - 1400px); */
+  }
+}
+
+@media (min-width: 1170px) {
+  .container {
+    max-width: 1000px;
+  }
+}
